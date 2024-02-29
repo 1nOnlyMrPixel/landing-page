@@ -1,0 +1,228 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: "Roboto", sans-serif;
+    /* font-weight: 400; */
+    font-style: normal;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+header
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+    background-color: rgb(31, 41, 55);
+}
+.logo
+{
+    color: white;
+    font-size: 24px;
+    font-weight: 1000;
+}
+.hlinks
+{
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+}
+
+.mheader
+{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 41, 55);
+    color: white;
+    gap: 10px;
+}
+
+.mh-left-content
+{
+    width: 400px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+}
+.mhlc-head
+{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.mh-right-content
+{
+    width: 400px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(109, 116, 125);
+    color: white;
+}
+.signbtn,.signbtn2
+{
+    height: 30px;
+    width: 110px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(62, 132, 246);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+.signbtn:hover
+{
+    background-color: rgb(113, 164, 247);
+    cursor: pointer;
+}
+
+
+
+.m-content-one
+{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-one-header
+{
+
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: rgb(31, 41, 55);
+}
+
+.content-one-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.box
+{
+    height: 220px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+}
+.box-image
+{   
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px; 
+    border: 4px solid rgb(60, 131, 246);
+    text-align: center;
+}
+.box-content
+{
+    text-align: center;
+    color: rgb(112, 120, 131);
+}
+
+.m-content-two
+{
+    display: flex;
+    height: 350px;
+    background-color: rgb(228, 230, 234);
+    justify-content: center;
+    align-items: center;
+}
+.quote-box
+{
+    height: 300px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote
+{
+    font-size: 36px;
+    padding: 10px;
+    font-weight: lighter;
+    font-style: italic;
+    box-sizing: border-box;
+}
+.author
+{
+    text-align: right;
+}
+.m-content-three,.adbox,.adleft,.adright
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.m-content-three
+{
+    height: 300px;
+}
+.adbox
+{
+    height: 100px;
+    width: 800px;
+    padding: 30px;
+    background-color: rgb(59, 129, 245);
+    border-radius: 6px;
+    color: white;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.adleft
+{
+    flex-direction: column;
+    gap: 10px;
+}
+.ad-heading
+{
+    font-weight: bolder;
+    font-size: 18px;
+}
+.signbtn2
+{
+    border: 2px solid white;
+}
+.signbtn2:hover
+{
+    background-color:rgb(91, 153, 253);
+    cursor: pointer;
+}
+footer
+{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 41, 55);
+    color: white;
+    font-size: 12px;
+}
